@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url(backimg.jpg);
+  
+   font-family: sans-serif;
+   color: #727272;
+   
+
+}
+.dark{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(40, 39, 39, 0.518);
+
+}
+.logo{
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    top: 0.8rem;
+    left: 1rem;
+
+    
+}
+
+
+#formcontainer{
+    background-color: rgba(0, 0, 0, 0.605);
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    width: 30vw;
+    padding: 4rem;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#formcontainer > h1{
+    color: white;
+    font-family: sans-serif;
+   margin-right: 9.9rem;
+}
+#inputcontainer  {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   margin-bottom: 1rem;
+}
+.pass{
+    margin-bottom: 1rem;
+}
+
+#inputcontainer > input{
+    padding: 0.9rem;
+    border: none;
+    outline: 15px;
+    font-size: 15px;
+    border-radius: 7px;
+    background-color: rgb(61, 60, 60);
+}
+
+input[type="submit"]{
+    background-color: red !important;
+    font-weight: bold;
+    color: white !important;
+    font-size: medium;
+    cursor: pointer;
+    
+}
+
+
+input[type="checkbox"]{
+    accent-color: red;
+}
+#formrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #8c8c8c;
+}
+a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+#footer{
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+ 
+   
+}
